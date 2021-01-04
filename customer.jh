@@ -1,0 +1,6 @@
+entity Customer {
+	firstName String,
+    lastName String,
+    email String,
+    telephone String
+}
