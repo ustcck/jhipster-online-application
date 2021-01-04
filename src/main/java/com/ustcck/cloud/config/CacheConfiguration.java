@@ -47,6 +47,7 @@ public class CacheConfiguration {
             createCache(cm, com.ustcck.cloud.domain.User.class.getName());
             createCache(cm, com.ustcck.cloud.domain.Authority.class.getName());
             createCache(cm, com.ustcck.cloud.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.ustcck.cloud.domain.Customer.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
